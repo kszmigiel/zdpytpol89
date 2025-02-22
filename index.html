@@ -3,63 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Wizytówka</title>
+    <title>Navbar z trzema stronami</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
+        /* Stylowanie navbara */
+        .navbar {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        .container {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 400px;
-            width: 100%;
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 15px;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
         }
 
-        h1 {
-            color: #333;
-            margin: 10px 0;
-        }
-        p {
-            color: #555;
-            margin: 5px 0;
-        }
-        a {
-            color: #0077b5;
+        .navbar a {
+            color: white;
             text-decoration: none;
-            font-weight: bold;
+            padding: 10px 20px;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        /* Stylowanie zawartości stron */
+        .content {
+            padding: 20px;
+            display: none;
+        }
+
+        .content.active {
+            display: block;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="twoje-zdjecie.jpg" alt="Moje zdjęcie" class="profile-img">
-        <h1>Imię Nazwisko</h1>
-        <p>Email: przykladowy@email.com</p>
-        <p>Telefon: +48 123 456 789</p>
-        <p>
-            GitHub: <a href="https://github.com/twoj-profil" target="_blank">Odwiedź mój profil</a>
-        </p>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" data-page="home">Strona Główna</a>
+        <a href="#" data-page="about">O Nas</a>
+        <a href="#" data-page="contact">Kontakt</a>
     </div>
+
+    <!-- Zawartość stron -->
+    <div id="home" class="content active">
+        <h1>Strona Główna</h1>
+        <p>Witaj na stronie głównej!</p>
+    </div>
+
+    <div id="about" class="content">
+        <h1>O Nas</h1>
+        <p>Dowiedz się więcej o nas.</p>
+    </div>
+
+    <div id="contact" class="content">
+        <h1>Kontakt</h1>
+        <p>Skontaktuj się z nami.</p>
+    </div>
+
+    <script>
+
+    </script>
+
 </body>
 </html>
