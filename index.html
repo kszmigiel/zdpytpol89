@@ -1,20 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Wizytówka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #333;
+            margin: 10px 0;
+        }
+        p {
+            color: #555;
+            margin: 5px 0;
+        }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-
-
-<h1>header</h1>
-
-<p>ala ma kota</p>
-
-<a href="kotek.html"> KOTEK </a>
-
-<h2>header</h2>
-<h3>header</h3>
-
+    <div class="container">
+        <img src="twoje-zdjecie.jpg" alt="Moje zdjęcie" class="profile-img">
+        <h1>Imię Nazwisko</h1>
+        <p>Email: przykladowy@email.com</p>
+        <p>Telefon: +48 123 456 789</p>
+        <p>
+            GitHub: <a href="https://github.com/twoj-profil" target="_blank">Odwiedź mój profil</a>
+        </p>
+    </div>
 </body>
 </html>
