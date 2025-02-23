@@ -1,0 +1,26 @@
+<html>
+<head>
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+        }
+
+        button.clicked {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<button id="myButton">Kliknij mnie</button>
+
+<script>
+    const myButton = document.getElementById('myButton');
+    myButton.addEventListener('click', function() {
+        myButton.classList.add('clicked');
+    });
+</script>
+
+</body>
+</html>
