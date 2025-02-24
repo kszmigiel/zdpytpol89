@@ -15,11 +15,18 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/backend/car_rental/car_rental/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/car_rental/cars/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/car_rental/cars/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/car_rental/manage.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -68,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740215706030</updated>
       <workItem from="1740215707067" duration="12793000" />
-      <workItem from="1740296332549" duration="5645000" />
+      <workItem from="1740296332549" duration="14034000" />
     </task>
     <servers />
   </component>
