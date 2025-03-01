@@ -9,6 +9,8 @@ def index(request):
 def login(request, *args, **kwargs):
     print(args, kwargs)
 
+    request.GET.get('next', None)
+
     # write all request attributes and methods
     print(request)
     print(request.META)
