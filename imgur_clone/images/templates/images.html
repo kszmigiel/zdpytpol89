@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">{{ title }}</h1>
+    <div class="row">
+        {% for image in images %}
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{{ image.image.url }}" class="card-img-top" alt="{{ image.filename }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ image.filename }}</h5>
+                    <p class="card-text">
+                        Liczba polubień: {{ image.likes.count }}
+                    </p>
+                    <a href="#" class="btn btn-primary">Polub</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

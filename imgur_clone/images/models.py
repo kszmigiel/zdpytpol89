@@ -3,8 +3,7 @@ from django.contrib.auth.models import User
 
 
 class Image(models.Model):
-    image = models.ImageField(upload_to='images/', )
-    filename = models.CharField(max_length=100)
+    image = models.ImageField(upload_to='media')
     likes = models.ManyToManyField(User, related_name='liked_images', through='ImageLike')
 
 class Comment(models.Model):
