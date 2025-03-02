@@ -26,11 +26,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/backend/car_rental/car_rental/settings.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/backend/car_rental/cars/migrations/0001_initial.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/backend/car_rental/cars/models.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/backend/car_rental/cars/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/backend/car_rental/manage.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/imgur_clone/images/admin.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/imgur_clone/images/apps.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/imgur_clone/images/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/imgur_clone/images/tests.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/imgur_clone/images/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/imgur_clone/imgur_clone/settings.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -109,7 +111,8 @@
       <workItem from="1740296332549" duration="14034000" />
       <workItem from="1740375224664" duration="76000" />
       <workItem from="1740584132465" duration="161000" />
-      <workItem from="1740812158758" duration="802000" />
+      <workItem from="1740812158758" duration="17360000" />
+      <workItem from="1740904495436" duration="4232000" />
     </task>
     <servers />
   </component>
