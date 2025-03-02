@@ -1,10 +1,20 @@
-from django.http import HttpResponse
-from django.shortcuts import render
 import json
+
+from django.shortcuts import render
+from django.template import loader
+
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    # template = loader.get_template("index.html")
+    context = {"header": "STRONA TESTOWA"}
+
+    return render(request,"index.html", context)
+    # return HttpResponse(template.render(context, request))
+
+
+
+
 
 def login(request, *args, **kwargs):
     print(args, kwargs)
